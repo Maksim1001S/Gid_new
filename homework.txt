@@ -1,0 +1,10 @@
+1.git checkout [file-name]
+2.git restore --staged [file name]
+3.git reset, git revert, git commit --amend -m "commit message"
+4.git checkout -b [branch name]
+5.В fast-forward главная ветка(тоесть на эту ветку указывает стрелочка) в нее просто 
+добавляеться коммит второй ветки. А вот non fast-forfard сливает две ветки в один 
+последний коммит и две ветки находяться на ровне.
+6.Когда в обеих ветках были изменения и они произошли в одном файле, решаеться в
+ручную убирая комментарии проставленные гитом 
+7.git branch -d [branch name]
